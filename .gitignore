@@ -1,0 +1,46 @@
+﻿# 動画・音声・画像
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.mp3
+*.aac
+*.m4a
+*.flac
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+# Premiere などの編集データ・書き出し
+*.prproj
+*.prin
+*.aep
+*.psd
+*.mxf
+*.pek
+*.cfa
+*.ims
+
+# 秘密情報（鍵・パスワード・ログイン情報）
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+.credentials.json
+credentials*.json
+secrets*
+
+# 文字起こしの環境・一時ファイル
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
